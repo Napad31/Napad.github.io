@@ -151,7 +151,7 @@
            ========================================================================== */
         .skills-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
             gap: 25px;
             text-align: center;
             margin-top: 25px;
@@ -161,15 +161,18 @@
             padding: 20px 10px;
             border-radius: 12px;
             transition: all 0.2s ease;
+            background-color: #FFF9FA; /* เพิ่มพื้นหลังกล่องความสามารถเบาๆ */
+            border: 1px solid #FFE4E8;
         }
 
         .skill-item:hover {
             background-color: #FFF1F3;
-            transform: translateY(-3px);
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(224, 169, 175, 0.15);
         }
 
         .skill-item i {
-            font-size: 3rem;
+            font-size: 2.8rem;
             color: #DE7A8C; /* ไอคอนสีชมพู */
             margin-bottom: 12px;
             display: block;
@@ -180,6 +183,7 @@
             font-weight: 500;
             color: #4A3E3D;
             display: block;
+            line-height: 1.4;
         }
 
         /* ==========================================================================
@@ -256,29 +260,29 @@
             </div>
         </section>
 
-        <!-- ส่วนแสดงความสามารถ (สามารถแก้ไขข้อความในแท็ก <span> เป็นความสามารถของคุณได้เลยค่ะ) -->
+        <!-- ส่วนแสดงความสามารถ (อัปเดตเป็นข้อมูลของคุณ Napad แล้วค่ะ) -->
         <section id="skills">
             <h2>ความสามารถของฉัน</h2>
             <div class="skills-grid">
                 
                 <div class="skill-item">
-                    <i class="fa-solid fa-code"></i>
-                    <span>HTML, CSS, JavaScript</span>
+                    <i class="fa-solid fa-handshake"></i>
+                    <span>1. สามารถทำงานร่วมกับผู้อื่นได้</span>
                 </div>
 
                 <div class="skill-item">
-                    <i class="fa-solid fa-cubes"></i>
-                    <span>Python, Django</span>
+                    <i class="fa-solid fa-comments"></i>
+                    <span>2. การใช้ภาษาในการสื่อสาร</span>
                 </div>
 
                 <div class="skill-item">
-                    <i class="fa-solid fa-code-branch"></i>
-                    <span>Git & GitHub</span>
+                    <i class="fa-solid fa-palette"></i>
+                    <span>3. วาดรูป</span>
                 </div>
 
                 <div class="skill-item">
-                    <i class="fa-solid fa-compass-drafting"></i>
-                    <span>การออกแบบ UI/UX</span>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span>4. การขายของ</span>
                 </div>
 
             </div>
