@@ -170,3 +170,39 @@ footer {
     margin-top: 60px;
     font-size: 0.9rem;
 }
+/* 8. ส่วนความสามารถ (Skills) */
+.skills-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+gap: 20px;
+margin-top: 25px;
+}
+
+.skill-item {
+background: #FFF9FA;
+border: 1px solid #FFD1DC;
+border-radius: 15px;
+padding: 25px 20px;
+text-align: center;
+box-shadow: 0 5px 15px rgba(224, 169, 175, 0.15);
+transition: all 0.3s ease;
+}
+
+.skill-item:hover {
+transform: translateY(-5px);
+box-shadow: 0 10px 25px rgba(224, 169, 175, 0.25);
+}
+
+.skill-item i {
+font-size: 45px;
+color: #DE7A8C;
+margin-bottom: 15px;
+display: block;
+}
+
+.skill-item span {
+font-size: 1rem;
+font-weight: 500;
+color: #5C3D42;
+line-height: 1.5;
+}
